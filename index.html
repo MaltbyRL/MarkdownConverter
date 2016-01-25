@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" class="css">
+  <link rel="stylesheet" href="css/style.css" class="css">
+</head>
+<body>
+
+  <div class="row" id="first">
+    <div class="col-xs-3">
+      <div>
+        <h1 style="font-family: times;">Markdown Converter</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="outer" id="second">
+    <div class="wrapper" id="bsdf">
+      <div class="row">
+      </div>
+        <div class="row" style="margin-top: 1.5vw;">
+          <div class="col-md-6 textCol">
+            <textarea id="textInputArea" rows="5" cols="90">Insert your markdown text</textarea><button class="send" id="addMarkdown">Send</button>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-md-6 listRow" id="convertedText" style="margin-left: 4.1vw;"></div>
+        </div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+<!-- end -->
